@@ -84,6 +84,15 @@ app.get('/api/:id', function(req, res, next) {
 	})
 })
 
+
+app.get('/api/delete/:id', function(req, res, next) {
+	db.remove({_id: req.params.id}, function(err, doc) {
+		var backRedirect = '/admin/'
+		res.header('Location', backRedirect);
+		res.sendStatus(200);
+		return next();
+	})
+})
 // have our server listen and report
 app.listen(process.env.PORT || 8000, function() {
 	console.log('%s listening at %s', app.name, app.url);

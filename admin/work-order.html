@@ -3,6 +3,7 @@
 <head>
 	<title>Work Order</title>
 	<script src="/admin/js/jquery-1.11.2.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="/admin/css/style.css">
 </head>
 <body>
 	<header>
@@ -21,12 +22,21 @@
 	var work_order_id = $(location).attr('hash').substring(1);
 	$.getJSON('http://192.168.3.193:8000/api/' + work_order_id, function(data) {
 		$('#work-info').append(
-			'<li>' + JSON.stringify(data) + '</li>'
+			'<li style="text-decoration: none;">' + JSON.stringify(data[0].properties.name) + '</li>'
 		)
 		$('#map').attr('src', '/admin/map-test.html#' + work_order_id);
 	});
 	</script>
 	<iframe src="" id="map"></iframe>
+
+	<script>
+		function done() {
+			$.getJSON('http://192.168.3.193:8000/api/delete/' + $(location).attr('hash').substring(1), function(data) {
+				window.location.replace('/admin')
+			});
+		};
+	</script>
+	<button onclick="done()">Done</button>
 
 	<footer>
 		<p>Copyright &copy; 2015 - <a href="http://github.com/dydx/">dydx</a></p>
