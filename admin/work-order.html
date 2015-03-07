@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Work Order</title>
+	<script src="/admin/js/jquery-1.11.2.min.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Fix My City</h1>
+		<nav>
+			<ul>
+				<li><a href="/admin">Ticket List</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<ul id="work-info"></ul>
+	<script>
+	// THIS IS SO COOL
+	console.log(window.location.hash);
+	var work_order_id = $(location).attr('hash').substring(1);
+	$.getJSON('http://192.168.3.193:8000/api/' + work_order_id, function(data) {
+		$('#work-info').append(
+			'<li>' + JSON.stringify(data) + '</li>'
+		)
+		$('#map').attr('src', '/admin/map-test.html#' + work_order_id);
+	});
+	</script>
+	<iframe src="" id="map"></iframe>
+
+	<footer>
+		<p>Copyright &copy; 2015 - <a href="http://github.com/dydx/">dydx</a></p>
+	</footer>
+</body>
+</html>

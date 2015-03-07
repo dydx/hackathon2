@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Fix My City</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+		<h1>Fix My City</h1>
+		<!-- admin interface only -->
+<!-- 		<nav>
+			<ul>
+				<li><a href="/requests.html">See All Posts</a></li>
+			</ul>
+		</nav> -->
+	</header>
+
+	<section>
+		<p>In the space below, write a sentence describing you see that needs fixing</p>
+		<form action="/api/new" method="post" id="fixit-form">
+			<textarea rows="5" id="msg" name="msg" value=""></textarea>
+			<input type="hidden" id="lat" name="lat" value="">
+			<input type="hidden" id="lon" name="lon" value="">
+			<input type="submit" value="Fix It" id="button">
+		</form>
+	</section>
+
+	<footer>
+		<p>Copyright &copy; 2015 - <a href="http://github.com/dydx/">dydx</a> - <a href="/admin">admin</a></p>
+	</footer>
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/geo-handler.js"></script>
+</body>
+</html>
