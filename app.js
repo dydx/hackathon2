@@ -84,7 +84,8 @@ app.get('/api/:id', function(req, res, next) {
 	})
 })
 
-
+// delete endpoint; works here, but not in the UI.
+// need to figure that out. Probably a jQuery mistake
 app.get('/api/delete/:id', function(req, res, next) {
 	db.remove({_id: req.params.id}, function(err, doc) {
 		var backRedirect = '/admin/'
