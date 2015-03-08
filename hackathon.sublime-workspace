@@ -1,0 +1,638 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"a",
+				"a	<a>"
+			],
+			[
+				"html",
+				"html	html"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 2270,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/index.html",
+			"settings":
+			{
+				"buffer_size": 1048,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/css/style.css",
+			"settings":
+			{
+				"buffer_size": 618,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "admin/css/style.css",
+			"settings":
+			{
+				"buffer_size": 411,
+				"line_ending": "Unix",
+				"name": "style.css"
+			}
+		},
+		{
+			"file": "admin/js/work-handler.js",
+			"settings":
+			{
+				"buffer_size": 285,
+				"line_ending": "Unix",
+				"name": "work-handler.js"
+			}
+		},
+		{
+			"file": "admin/index.html",
+			"settings":
+			{
+				"buffer_size": 532,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "admin/map-css.css",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix",
+				"name": "map-css.css"
+			}
+		},
+		{
+			"file": "admin/work-order.html",
+			"settings":
+			{
+				"buffer_size": 1148,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/dydx/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+			"settings":
+			{
+				"buffer_size": 61,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "admin/map-test.html",
+			"settings":
+			{
+				"buffer_size": 1028,
+				"line_ending": "Unix",
+				"name": "map-test.html"
+			}
+		}
+	],
+	"build_system": "Packages/F#/F#.sublime-build",
+	"command_palette":
+	{
+		"height": 398.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 456.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/dydx/Development/hackathon2"
+	],
+	"file_history":
+	[
+		"/home/dydx/Development/web/workers/index.html",
+		"/home/dydx/Development/hackathon2/database.json",
+		"/home/dydx/Development/hackathon2/admin/work-order.html",
+		"/home/dydx/Development/hackathon2/public/js/work-handler.js",
+		"/home/dydx/Development/hackathon2/public/css/style.css",
+		"/home/dydx/Development/hackathon2/public/index.html",
+		"/home/dydx/Development/hackathon2/public/work-order.html",
+		"/home/dydx/Development/hackathon2/public/requests.html",
+		"/home/dydx/Development/hackathon2/public/admin/index.html",
+		"/home/dydx/Development/hackathon2/public/js/geo-handler.js",
+		"/home/dydx/Development/hackathon/geo_stuff/form-handler.js",
+		"/home/dydx/Development/hackathon2/public/work-handler.js",
+		"/home/dydx/Development/hackathon2/public/js/form-handler.js",
+		"/home/dydx/Development/hackathon/geo_stuff/geo-handler.js",
+		"/home/dydx/Development/hackathon/geo_stuff/index.html",
+		"/home/dydx/Development/hackathon/geo_stuff/app.js",
+		"/home/dydx/Development/hackathon/index.js",
+		"/home/dydx/Development/web/owls/geo_stuff/form-handler.js",
+		"/home/dydx/Development/web/owls/geo_stuff/index.html",
+		"/home/dydx/Development/web/owls/demo.html",
+		"/home/dydx/Development/web/owls/index.html",
+		"/home/dydx/Development/web/owls/geo_stuff/geo-handler.js",
+		"/home/dydx/Development/web/owls/scripts.js",
+		"/home/dydx/Development/web/owls/style.css",
+		"/home/dydx/Development/web/workers/style.css",
+		"/home/dydx/Development/web/workers/app.js",
+		"/home/dydx/Development/web/workers/task.js",
+		"/home/dydx/Development/web/workers/external_script.js",
+		"/home/dydx/Development/web/workers/inline-blob.html",
+		"/home/dydx/Development/python/autocomplete.py",
+		"/home/dydx/Development/nblabs/my_blog/source/stylesheets/partials/_nav.scss",
+		"/home/dydx/Development/nblabs/my_blog/source/stylesheets/base/_base.scss",
+		"/home/dydx/Development/nblabs/my_blog/source/stylesheets/all.css.scss",
+		"/home/dydx/Development/nblabs/my_blog/source/layout.erb",
+		"/home/dydx/Development/nblabs/my_blog/source/index.html.erb",
+		"/home/dydx/Development/nblabs/my_blog/source/stylesheets/partials/_footer.scss",
+		"/home/dydx/Development/nblabs/my_blog/source/partials/_footer.erb",
+		"/home/dydx/Development/nblabs/my_blog/source/partials/_nav.erb",
+		"/home/dydx/Development/nblabs/my_blog/source/stylesheets/base/_variables.scss",
+		"/home/dydx/Development/nblabs/my_blog/source/stylesheets/partials/_layout.scss",
+		"/home/dydx/Development/nblabs/my_blog/source/2012-01-01-tumblr-article.html.markdown",
+		"/home/dydx/Development/nblabs/my_blog/Gemfile",
+		"/home/dydx/Development/nblabs/my_blog/source/stylesheets/base/_grid-settings.scss",
+		"/home/dydx/Development/nblabs/my_blog/source/2012-01-01-example-article.html.markdown",
+		"/home/dydx/Development/nblabs/my_blog/Rakefile",
+		"/home/dydx/Development/nblabs/my_blog/config.rb",
+		"/home/dydx/Development/nblabs/my_blog/config.ru",
+		"/home/dydx/Development/nblabs/nullbytelabs.github.io/index.html",
+		"/home/dydx/Development/nblabs/nullbytelabs.github.io/css/style.scss",
+		"/home/dydx/Development/nblabs/nullbytelabs.github.io/css/style.css",
+		"/home/dydx/Development/nblabs/cs/Test.cs",
+		"/home/dydx/.config/google-chrome/Default/Network Action Predictor",
+		"/home/dydx/.config/google-chrome/Default/databases/Databases.db",
+		"/home/dydx/Development/nblabs/fs/learning.fs",
+		"/home/dydx/Development/nblabs/fs/cc.fs",
+		"/home/dydx/Development/nblabs/concierge/index.html",
+		"/home/dydx/Development/nblabs/concierge/README.md",
+		"/home/dydx/dydx.github.com/index.html",
+		"/home/dydx/index.html",
+		"/home/dydx/Development/nblabs/concierge/css/style.styl",
+		"/home/dydx/Development/nblabs/concierge/style.styl",
+		"/home/dydx/Development/nblabs/concierge/index.jade",
+		"/home/dydx/Development/node/dumb_bloom_test.js",
+		"/home/dydx/Development/node/dumb_bloom.js",
+		"/home/dydx/Development/web/dydx.github.com/index.html",
+		"/home/dydx/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/dydx/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/dydx/Development/web/jeet-demo/index.html",
+		"/home/dydx/Development/web/jeet-demo/foo.styl",
+		"/home/dydx/Development/web/jeet-demo/type.styl",
+		"/home/dydx/Development/web/jeet-demo/demo.jade"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"div",
+			"position",
+			"params",
+			"longitude",
+			"!\");\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2270,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								198,
+								198
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "public/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1048,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								925,
+								925
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 81.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "public/css/style.css",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 618,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "admin/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 411,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								336,
+								336
+							]
+						],
+						"settings":
+						{
+							"auto_name": "style.css",
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 66.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "admin/js/work-handler.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 285,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								285,
+								285
+							]
+						],
+						"settings":
+						{
+							"auto_name": "work-handler.js",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "admin/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 532,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								303,
+								303
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "admin/map-css.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "map-css.css",
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "admin/work-order.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1148,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								969,
+								969
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 217.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/home/dydx/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 61,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								58,
+								58
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "admin/map-test.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1028,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								997,
+								997
+							]
+						],
+						"settings":
+						{
+							"auto_name": "map-test.html",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.478947980197,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 116.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "hackathon.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 165.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
